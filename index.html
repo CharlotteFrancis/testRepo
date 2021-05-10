@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>testRepo</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="grey darken-4" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">testRepo</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#">Test</a></li>
+        </ul>
+    
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="#">Test</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+    
+    
+    <!-- Header -->
+    <header class="section no-pad-bot" id="index-banner">
+      <div class="container">
+        <br><br>
+        <h1 class="header center orange-text">testRepo</h1>
+        <div class="row center">
+          <h5 class="header col s12 light white-text">This is a testRepo</h5>
+        </div>
+        <br><br>
+    
+      </div>
+    </header>
+    <!-- End Header -->
+    
+    <!-- Topics section -->
+    <div class="container">
+      <div class="section">
+    
+        <div class="row">
+          <h3>This is a testRepo</h3>
+        </div>
+    
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <a href="#HTML">
+                <h2 class="center black-text"><i class="material-icons">code</i></h2>
+                <h5 class="center">Hi</h5>
+              </a>
+              <p class="light">Hi</p>
+            </div>
+          </div>
+    
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <a href="#CSS">
+                <h2 class="center black-text"><i class="material-icons">format_color_fill</i></h2>
+                <h5 class="center">Hello</h5>
+              </a>
+              <p class="light">Hello</p>
+            </div>
+          </div>
+    
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <a href="#Git">
+                <h2 class="center"><img src="./assets/img/GitHub-Mark-64px.png" alt="Github" width="53px" /></h2>
+                <h5 class="center">Ni Hao</h5>
+              </a>
+              <p class="light">Ni Hao</p>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+      <br><br>
+    </div>
+    
+    <div class="spacer" style="margin: 300px;"></div>
+    
+    <!-- footer -->
+    <footer class="page-footer black">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">CodeNotes</h5>
+            <p class="grey-text text-lighten-4">CodeNotes is a compilation of lesson topics from UCI Coding Bootcamp put
+              together by Dia Seu. This site's purpose includes a review of past topics as well as a reference for key
+              topics to remember.</p>
+    
+    
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Settings</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
+              <li><a class="white-text" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+          <div class="col l3 s12">
+            <h5 class="white-text">Connect</h5>
+            <ul>
+              <li><a class="white-text" href="#!">Link 1</a></li>
+              <li><a class="white-text" href="#!">Link 2</a></li>
+              <li><a class="white-text" href="#!">Link 3</a></li>
+              <li><a class="white-text" href="#!">Link 4</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          &copy; Dia Seu
+        </div>
+      </div>
+    </footer>
+    
+    
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="./assets/js/materialize.js"></script>
+    <script src="./assets/js/init.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.collapsible');
+        var instances = M.Collapsible.init(elems, options);
+      });
+
+      // Or with jQuery
+
+      $(document).ready(function () {
+        $('.collapsible').collapsible();
+      });
+
+    </script>
+
+</body>
+</html>
